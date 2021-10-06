@@ -1,0 +1,13 @@
+#pragma once
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+#include "BaseDefine/baseDefine.h"
+#include "Input/Public/Input.h"
+#include "DataStructure/Public/myStrings.h"
+#include "WindowsSetting/Public/windows_setting.h"
+#include "Calculator/Public/calculator.h"
+void initCalculator(void);
+void runCalculator(void);
+void exitCalculator(void);
